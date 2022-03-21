@@ -19,39 +19,57 @@
 
 .display-row {
     min-height: 500px;
-    margin-bottom: 40px;
+    width: 100%;
 }
 
 .post {
+    display: inline-block;
     height: 500px;
     width: calc(100% / 3 - 8px);
     float: left;
 }
 
+.post:nth-child(2) {
+    margin: 0px 12px;
+}
+
 .base-img {
-    height: 400px;
+    height: 500px;
     position: relative;
+    background-position: center;
+    background-size: cover;
 }
 
 .hover-img {
-    height: 400px;
+    height: 500px;
     width: 100%;
     object-fit: cover;
+    display: none;
+    position: absolute;
 }
 
 .base-img-n1 {
     background-image: url(../img/1.webp);
-    background-position: center;
-    background-size: cover;
+}
+
+.base-img-n2 {
+    background-image: url(../img/2.webp);
+}
+
+.base-img-n3 {
+    background-image: url(../img/3.webp);
 }
 
 .post-n1:hover .img-n1-hover {
     display: block;
 }
 
-.img-n1-hover {
-    display: none;
-    position: absolute;
+.post-n2:hover .img-n2-hover {
+    display: block;
+}
+
+.post-n3:hover .img-n3-hover {
+    display: block;
 }
 
 .heart {
