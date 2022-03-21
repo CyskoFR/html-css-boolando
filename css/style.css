@@ -30,6 +30,7 @@
 
 .base-img {
     height: 400px;
+    position: relative;
 }
 
 .hover-img {
