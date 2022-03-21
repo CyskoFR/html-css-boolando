@@ -61,3 +61,25 @@
     background-color: white;
     padding: 4px 8px;
 }
+
+.tag-row{
+    width: 100%;
+    min-height: 20px;
+    position: absolute;
+    bottom: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+}
+
+.discount-box {
+    background-color: #eb0037;
+    padding: 4px 6px;
+}
+
+.category-box {
+    background-color: #00875a;
+    padding: 4px 6px;
+}
+
+
