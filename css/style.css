@@ -6,4 +6,48 @@
 
 .container {
     max-width: 1000px;
+    margin: auto;
+    padding: 8px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.display-row {
+    min-height: 500px;
+    margin-bottom: 40px;
+}
+
+.post {
+    height: 500px;
+    width: calc(100% / 3 - 8px);
+    float: left;
+}
+
+
+.base-img {
+    height: 400px;
+}
+
+.hover-img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.base-img-n1 {
+    background-image: url(../img/1.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.post-n1:hover .img-n1-hover {
+    display: block;
+}
+
+.img-n1-hover {
+    display: none;
 }
