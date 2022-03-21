@@ -18,13 +18,12 @@
 }
 
 .display-row {
-    min-height: 500px;
+    min-height: 600px;
     width: 100%;
 }
 
 .post {
-    display: inline-block;
-    height: 500px;
+    min-height: 500px;
     width: calc(100% / 3 - 8px);
     float: left;
 }
@@ -60,6 +59,18 @@
     background-image: url(../img/3.webp);
 }
 
+.base-img-n4 {
+    background-image: url(../img/4.webp);
+}
+
+.base-img-n5 {
+    background-image: url(../img/5.webp);
+}
+
+.base-img-n6 {
+    background-image: url(../img/6.webp);
+}
+
 .post-n1:hover .img-n1-hover {
     display: block;
 }
@@ -72,6 +83,18 @@
     display: block;
 }
 
+.post-n4:hover .img-n4-hover {
+    display: block;
+}
+
+.post-n5:hover .img-n5-hover {
+    display: block;
+}
+
+.post-n6:hover .img-n6-hover {
+    display: block;
+}
+
 .heart {
     display: inline-block;
     position: absolute;
@@ -81,7 +104,7 @@
     padding: 4px 8px;
 }
 
-.tag-row{
+.tag-row {
     width: 100%;
     min-height: 20px;
     position: absolute;
@@ -102,6 +125,7 @@
 }
 
 .info-box {
+    display: inline-block;
     margin-top: 8px;
 }
 
