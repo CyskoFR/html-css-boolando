@@ -27,7 +27,6 @@
     float: left;
 }
 
-
 .base-img {
     height: 400px;
     position: relative;
@@ -51,4 +50,14 @@
 
 .img-n1-hover {
     display: none;
+    position: absolute;
+}
+
+.heart {
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    right: 0px;
+    background-color: white;
+    padding: 4px 8px;
 }
