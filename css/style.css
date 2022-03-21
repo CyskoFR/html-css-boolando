@@ -90,3 +90,19 @@
 .brand {
     font-size: 14px;
 }
+
+.product-name {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.price {
+    font-size: 14px;
+    font-weight: 700;
+    color: red;
+}
+
+.old-price {
+    font-size: 14px;
+    text-decoration: line-through;
+}
